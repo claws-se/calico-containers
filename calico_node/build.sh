@@ -37,7 +37,7 @@ chmod +x /sbin/*
 
 # Install Felix and libcalico
 pip install git+https://github.com/projectcalico/calico.git
-pip install git+https://github.com/projectcalico/libcalico.git
+pip install git+https://github.com/claws-se/libcalico.git
 
 # Output the python library list
 pip list > libraries.txt
